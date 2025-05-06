@@ -1,0 +1,24 @@
+public class Calculator
+    {
+    public static void Addition(Integer a,Integer b)
+      {
+        Integer c = a + b;
+        System.debug('Add = ' + c);
+      }
+    public static void Subtraction(Integer a,Integer b)
+      {
+        Integer c1 = a - b;
+    
+        System.debug('Sub =' + c1);
+      }
+    public static void Multi(Integer a,Integer b)
+      {
+        Integer c = a * b;
+        System.debug('Multi ='+ c);
+      }
+    public static void Div(Integer a,Integer b)
+      {
+        Integer c = a / b;
+        System.debug('Div ='+ c);
+      }
+}
